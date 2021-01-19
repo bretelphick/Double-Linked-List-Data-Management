@@ -1,0 +1,10 @@
+﻿Bret Elphick
+CSC 230
+11/13/20
+Performance Difference Explanation
+
+In Project 3 we implemented using a linked list rather than an array. Linked lists have a few advantages over arrays which made Project 3 faster than Project 2. 
+The most important advantage is the ease of inserting and deleting nodes from linked lists. When a new node is inserted or an existing node is deleted from a linked list the pointers can be updated and shifting is not required. 
+However, when inserting or deleting an element in an array several other elements in the array might have to be shifted which can be quite time intensive. 
+The other advantage of the linked list is dynamic size. Never did we have to resize the linked list during the duration of this program, whereas we had to resize the array several times in Project 2. 
+These two key differences made the linked list implementation faster than the array implementation.
